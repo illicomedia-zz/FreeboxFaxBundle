@@ -1,4 +1,4 @@
 FreeFaxBundle
 =============
 
-Send Fax using your Free account
+Symfony2 bundle to send a FAX using your Free account.
