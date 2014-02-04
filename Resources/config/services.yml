@@ -1,0 +1,9 @@
+parameters:
+    freebox.fax.class: Illicomedia\Freebox\FaxBundle\Service\FreeboxFax
+
+services:
+    freebox.fax:
+        class: %freebox.fax.class%
+        arguments:
+            - %freebox.login%
+            - %freebox.password%
