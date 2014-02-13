@@ -1,5 +1,5 @@
-FreeFaxBundle
-=============
+FreeboxFaxBundle
+================
 
 Symfony2 bundle to send a FAX using your Freebox account.
 
