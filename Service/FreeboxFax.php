@@ -258,6 +258,7 @@ class FreeboxFax
 
         $page = file_get_contents(self::FAX_LIST_ENDPOINT."?".http_build_query($session));
 
+        //todo
         echo $page;
 
         $list = array();
@@ -267,6 +268,7 @@ class FreeboxFax
 
     public function getFaxStatus($fax_id)
     {
+        //todo
         return true;
     }
 }
