@@ -1,4 +1,0 @@
-freebox_fax:
-    resource: "@IllicomediaFreeboxFaxBundle/Controller/"
-    type:     annotation
-    prefix:   /

@@ -14,7 +14,7 @@ class FreeboxFaxTest extends WebTestCase
         /** @var FreeboxFax $fax *
         $fax = $client->getContainer()->get("freebox.fax");
 
-        $fax->setRecipientNumber("0957626229")
+        $fax->setRecipientNumber("0102030405")
             ->setWithEmailReport()
             ->setMaskMyNumber(false)
             ->setFilePath(__DIR__."/test.txt")
