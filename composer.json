@@ -1,0 +1,21 @@
+{
+    "name": "illicomedia/freebox-fax-bundle",
+    "type": "symfony-bundle",
+    "description": "Freebox fax bundle for Symfony 2",
+    "homepage" : "http://localhost",
+    "keywords": ["freebox", "fax"],
+    "authors": [
+        {   "name": "Frédéric VIALLET",
+            "email": "contact@illicomedia.com",
+            "homepage": "http://www.illicomedia.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-0": { "Illicomedia\\Freebox\\FaxBundle": "" }
+    },
+    "target-dir": "Illicomedia/Freebox/FaxBundle"
+}
